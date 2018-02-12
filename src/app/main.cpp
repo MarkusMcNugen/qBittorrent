@@ -57,8 +57,6 @@ Q_IMPORT_PLUGIN(QICOPlugin)
 
 #ifdef Q_OS_UNIX
 #include <signal.h>
-#include <execinfo.h>
-#include "stacktrace.h"
 #endif // Q_OS_UNIX
 
 #ifdef STACKTRACE_WIN
